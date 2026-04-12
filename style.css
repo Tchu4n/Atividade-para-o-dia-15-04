@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://preview.redd.it/windows-xp-bliss-wallpaper-hq-2560x1440-v0-nbjxvz68exbb1.png?auto=webp&s=6ff9f2f2db0b1e853d8492e08c07f0712120d0d1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #618cc3;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Remover quando terminar */
+div { border: 1px solid red; } 
+
+
+.navdiv {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.navdiv ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    gap: 10px;
+}
+
+/* Estilo dos navlinks */
+.navdiv ul li {
+    background-color: #c0c0c0;
+    padding: 4px 10px;
+    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+    user-select: none;  
+    /* Efeito 3d da borda */
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Efeito do clique */
+.navdiv ul li:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 5px 9px 3px 11px; /* Desloca o texto 1px */
+}
+
+.imagemcentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.imagemcentro img {
+    max-width: 100%;
+    height: auto;
+}
