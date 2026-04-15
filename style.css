@@ -57,7 +57,7 @@ div { border: 1px solid red; }
     border-left: 2px solid #808080;
     border-right: 2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
-    padding: 5px 9px 3px 11px; /* Desloca o texto 1px */
+    padding: 5px 9px 3px 11px;
 }
 
 .imagemcentro {
